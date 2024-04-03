@@ -1,0 +1,52 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #3e3e3e;
+    color: aliceblue;
+    font-family: "Verdana", serif;
+}
+.box-components{
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+.admin-header{
+    border-bottom: 2px solid gray;
+    margin: 10px;
+    padding: 5px;
+    width: 100%;
+}
+.admin-header button{
+    margin: 3px;
+    width: 150px;
+    height: 50px;
+}
+
+.button{
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border-color: #530101;
+}
+select{
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border-color: #530101;
+}
+input{
+    margin: 5px;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    border-color: #530101;
+}
+.useres{
+    /*background-color: #530c0c;*/
+    border: 1px solid #6a4e4e;
+    border-radius: 15px;
+    height: 50px;
+    font-size: 10px;
+}
