@@ -1,13 +1,11 @@
 import React from "react";
 import Navigator from "../components/Navigator";
-import Scene1 from "../components/canvas1/scene1";
 
-let x = 20;
-export const Canvas = () => {
+export const P_home = () => {
     return (
         <div>
             <Navigator/>
-            <Scene1/>
+            <h1>Главная</h1>
         </div>
     )
 }

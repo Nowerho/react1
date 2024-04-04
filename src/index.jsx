@@ -5,15 +5,17 @@ import ReactDOM from 'react-dom/client';
 import {createBrowserRouter, RouterProvider, Navigate,} from "react-router-dom";
 
 
-import { Home } from './pages/home';
-import { Canvas } from './pages/canvas';
-import { Three } from "./pages/three";
+import { P_home } from './pages/p_home';
+import { P_canvas } from './pages/p_canvas';
+import { P_three } from "./pages/p_three";
+import { P_hooks } from "./pages/p_hooks";
 
 const routing = createBrowserRouter([
     {path: "/", element: <Navigate to="/home"/>},
-    {path: "/home", element: <Home/>},
-    {path: "/canvas", element: <Canvas/>},
-    {path: "/three", element: <Three/>},
+    {path: "/home", element: <P_home/>},
+    {path: "/canvas", element: <P_canvas/>},
+    {path: "/three", element: <P_three/>},
+    {path: "/hooks", element: <P_hooks/>},
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
