@@ -7,4 +7,9 @@ button {
 	-ms-user-select: none;
 	user-select: none;
 }
-canvas{border:1px solid grey;}
+canvas{
+	border:1px solid grey;
+}
+#hook{
+	border:1px solid grey;
+}
