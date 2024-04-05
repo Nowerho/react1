@@ -14,6 +14,7 @@ const Hook1 = () => { // стрелочная функуция с функцие
     }
     return (                                               // результат функции
         <div id="hook">
+            <h2>useState</h2>
             <h3>Имя: {user.name}</h3>
             <h3>Возраст: {user.age}</h3>
 

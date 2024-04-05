@@ -4,7 +4,6 @@ import { useEffect, useRef } from "react";
 const Scene1 = (props) => {
     //Это ссылка на что?
     const ref = useRef(null);
-
     
     const draw = (ctx, count) => {
         ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
