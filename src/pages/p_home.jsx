@@ -1,11 +1,12 @@
 import React from "react";
 import Navigator from "../components/Navigator";
 
-export const P_home = () => {
+const P_home = () => {
     return (
-        <div>
+        <div id="page_home">
             <Navigator/>
             <h1>Главная</h1>
         </div>
     )
 }
+export default P_home;

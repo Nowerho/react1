@@ -1,10 +1,8 @@
 import React, { useEffect } from "react";
-import ReactDOM from 'react-dom/client';
 
-import img from '../../images/image.jpg'
-const Hook2 = () => {
+const Hook2 = (props) => {
     console.log("Элемент пересоздан");
-    const [name, setName] = React.useState("Vasya");
+    const [name, setName] = React.useState(props.name);
     let x = 'OLD data';
     React.useEffect(() => { //запускается при изменениях из useState через set
         document.title = `Привет ${name}`
@@ -25,10 +23,9 @@ const Hook2 = () => {
     }
 
     return (
-        <div>
+        <div id="hook">
             <h2>useEffect</h2>
             <h3>Имя: {name}</h3>
-            <img src={img} style={{ width: '60px' }} />
             <div>
                 <p>Имя: <input type="text" value={name} onChange={changeName} /></p>
                 <p>Имя: <button text="dskjf" onClick={buttonClick} >Set new data</button></p>

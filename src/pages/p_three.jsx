@@ -2,7 +2,7 @@ import React from "react";
 import Navigator from "../components/Navigator";
 import World from "../components/three/csene1";
 
-export const P_three = () => {
+const P_three = () => {
     return (
         <div>
             <Navigator/>
@@ -11,3 +11,4 @@ export const P_three = () => {
         </div>
     )
 }
+export default P_three;
